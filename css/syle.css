@@ -10,11 +10,55 @@ body {
     font-family: sans-serif
 }
 
+main {
+    height: 100vh;
+    background-color: black;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
 /* end general rules */
 
-/* header rules */
-/* end header rules  */
+
 /* main rules */
+span {
+    font-size: large;
+}
+
+.container-h {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+
+}
+
+.header-button {
+    color: aliceblue;
+    background-color: hsl(0deg 0% 29%);
+}
+
+.pinco {
+    color: aliceblue;
+    background-color: rgba(128, 128, 128, 0.26);
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.card {
+    position: relative;
+}
+
+
+
+
+
+
+
 /* end main rules */
 /* footer rules */
 /* end footer rules */
