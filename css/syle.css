@@ -35,7 +35,6 @@ span {
 .container-h {
     display: flex;
     justify-content: end;
-    align-items: center;
     height: 100%;
     padding-top: 20px;
 
@@ -47,19 +46,16 @@ header {
     background-color: black;
 }
 
-button {
+
+a {
+    text-decoration: none;
     color: aliceblue;
-    padding: 3px;
     background-color: hsl(0deg 0% 29%);
-    border: 0.1px;
-
+    font-size: large;
+    padding: 6px;
+    border-radius: 6px;
 }
 
-.header-button {
-    background-color: hsl(0deg 0% 29%);
-    margin: 6px;
-    border-radius: 5px;
-}
 
 .pinco {
     color: aliceblue;
@@ -137,6 +133,7 @@ footer {
 
 p {
     margin: 0 auto;
+    font-size: medium;
 }
 
 .end {
@@ -158,6 +155,9 @@ p {
     color: aliceblue;
 }
 
+.green {
+    color: rgb(6, 223, 6);
+}
 
 
 /* end footer rules */
