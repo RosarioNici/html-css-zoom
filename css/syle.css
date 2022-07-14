@@ -18,6 +18,7 @@ main {
 img {
     width: 97%;
     height: 134px;
+    border-radius: 5px;
 }
 
 footer {
@@ -54,15 +55,18 @@ a {
     font-size: large;
     padding: 6px;
     border-radius: 6px;
+    margin-left: 5px;
+    margin: 10px;
 }
 
 
 .pinco {
     color: aliceblue;
-    background-color: rgba(128, 128, 128, 0.26);
+    background-color: rgba(49, 47, 47, 0.541);
     position: absolute;
     left: 0;
     bottom: 10px;
+    border-radius: 5px;
 }
 
 .card {
@@ -77,8 +81,8 @@ a {
     justify-content: center;
     align-items: center;
     margin-bottom: 5px;
-    overflow-y: scroll;
-
+    margin-left: 20px;
+    margin-right: 20px
 }
 
 
