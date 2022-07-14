@@ -16,8 +16,12 @@ main {
 }
 
 img {
-    width: 300px;
-    height: 200px;
+    width: 97%;
+    height: 134px;
+}
+
+footer {
+    height: 100px;
 }
 
 /* end general rules */
@@ -32,13 +36,29 @@ span {
     display: flex;
     justify-content: end;
     align-items: center;
+    height: 100%;
+    padding-top: 20px;
+
+
+}
+
+header {
+    height: 80px;
     background-color: black;
+}
+
+button {
+    color: aliceblue;
+    padding: 3px;
+    background-color: hsl(0deg 0% 29%);
+    border: 0.1px;
 
 }
 
 .header-button {
-    color: aliceblue;
     background-color: hsl(0deg 0% 29%);
+    margin: 6px;
+    border-radius: 5px;
 }
 
 .pinco {
@@ -51,6 +71,17 @@ span {
 
 .card {
     position: relative;
+    width: calc(100% / 7 - 4px);
+
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+
 }
 
 
@@ -61,4 +92,51 @@ span {
 
 /* end main rules */
 /* footer rules */
+
+i {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+.container-f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: hsl(0deg 0% 13%);
+}
+
+#end-meating {
+    color: red;
+}
+
+.call-stuments,
+.multimedia-struments {
+    display: flex;
+}
+
+.call-stuments,
+.multimedia-struments>div {
+    text-align: center;
+    font-size: x-large;
+}
+
+.call-stuments div {
+    margin-left: 15px;
+}
+
+p {
+    margin: 0 auto;
+}
+
+.end {
+    height: 100px;
+    text-align: center;
+}
+
 /* end footer rules */
