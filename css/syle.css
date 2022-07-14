@@ -1,0 +1,20 @@
+/* general rules */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif
+}
+
+/* end general rules */
+
+/* header rules */
+/* end header rules  */
+/* main rules */
+/* end main rules */
+/* footer rules */
+/* end footer rules */
